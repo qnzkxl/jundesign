@@ -1,0 +1,226 @@
+@charset "utf-8";
+/*max-width:768*/
+@media screen and (max-width:768px){
+    body{
+        min-width:100%;
+        width:100%;
+    }
+    .inner{
+        width:100%;
+    }
+    .headerIn{
+        height:20px;
+        margin:10px 20px;
+        display:block;
+    }
+    .headerIn h1{
+        width:70px;
+        height:28px;
+        background:url(../m/images/sp_com.png) no-repeat;
+        text-indent:-9999px;
+        display:block;
+
+    }
+    .pannel{
+        position:absolute;
+        top:50%;
+        right:20px;
+        margin-top:-8px;
+        display:block;
+    }
+    .pannel a{
+        display:block;
+    }
+    .pannel a:before,.pannel a:after{
+        content:"";
+        display:block;
+        width:20px;
+        height:2px;
+        background:#222;
+    }
+    
+    .pannel a span{
+        margin:5px 0;
+        width:20px;
+        height:2px;
+        display:block;
+        background:#222;
+        text-indent:-9999px;
+    }
+    .gnb,.utill{
+        display:none;
+    }
+    .mainslider{
+        height:370px;
+        display:block;
+        background:url(../images/main_img.jpg) no-repeat center center;
+        background-size:cover;
+        color:#fff;
+        text-align:center;
+        position:relative;
+    }
+    .mainSlider img{
+        display:none;
+    }
+    .sliderText{
+        position:absolute;
+        height:74px;
+        display:block;
+        top:0;
+        bottom:0;
+        left:0;
+        right:0;
+        margin:auto;
+    }
+    .sliderText h3{
+        font-size:18px;
+        font-weight:300;
+    }
+    .sliderText p{
+        font-size:13px;
+        font-weight:300;
+        margin-top:10px;
+    }
+    .sliderLeftBtn,.sliderRightBtn{
+        display:none;
+    }
+    .sliderBtn{
+        display:block;
+    }
+    .sliderBtn div{
+        width:13px;
+        height:24px;
+        background:url(../m/images/sp_com.png) no-repeat -64px -30px;
+        text-indent:-9999px;
+        top:50%;
+        margin-top:-12px;
+        position:absolute;
+    }
+    
+    .sliderBtn div a{
+        display:block;
+    }
+    .sliderBtn .prevBtn{
+        left:10px;
+    }
+    .sliderBtn .nextBtn{
+        right:10px;
+        background-position:-79px -30px;
+    }
+    .mainRow1{
+        padding:10px 0;
+    }
+    .mainRow1 ul{
+        padding:0;
+    }
+    .mainRow1 ul li{
+        width:33.3%;
+        padding:10px 0;
+        float:left;
+        text-align:center;
+    }
+    .mainRow1 ul li a span{
+        width:36px;
+        height:30px;
+        margin:0 auto;
+        display:block;
+        background:url(../m/images/sp_com.png) no-repeat -1px -60px;
+    }
+    .mainRow1 ul li a span.icon22{
+        background:url(../m/images/sp_com.png) no-repeat -35px -60px;
+    }
+    .mainRow1 ul li a span.icon33{
+        background:url(../m/images/sp_com.png) no-repeat -71px -58px;
+    }
+    .mainRow1 ul li a span.icon44{
+        background:url(../m/images/sp_com.png) no-repeat -108px -58px;
+    }
+    .mainRow1 ul li a span.icon55{
+        background:url(../m/images/sp_com.png) no-repeat -180px -58px;
+    }
+    .mainRow1 ul li a span.icon66{
+        background:url(../m/images/sp_com.png) no-repeat -178px -55px;
+    }
+    
+    .mainRow1 ul li a span p{
+        font-size:14px;
+    }
+    .mainRow2{
+        display:none;
+    }
+    .mainRow3{
+        padding:0;
+    }
+    .mainRow3 div{
+        width:calc(50% - 20px);
+        margin:0 auto;
+        height:195px;
+        margin-left:15px;
+        font-size:13px;
+
+    }
+    .mainRow3 div:nth-child(2){
+        margin-right:0;
+        margin-left:10px;
+    }
+    .mainRow3 div:nth-child(3){
+        margin-top:10px;
+    }
+    .mainRow3 div:nth-child(4){
+        background:url(../images/mainrow3_img3.jpg) no-repeat;
+        margin-top:10px;
+        margin-left:10px;
+    }
+    .row3Box4 select,input,button{
+        display:none;
+    }
+    .row3Box4 h3{
+        padding-top:60px;
+        margin-bottom:10px;
+        color:#fff;
+    }
+    .plusBtn{
+        display:none;
+    }
+    .noticeBox{
+        width:75%;
+    }
+    .noticeBox span{
+        display:none;
+    }
+    .noticeBox p:nth-child(3){
+        display:none;
+    }
+    .noticeNews.Last{
+        display:none;
+    }
+    .mainRow5{
+        width:100%;
+        margin:0 auto;
+    }
+    .row5Box{
+        width:calc(50% - 20px);
+        height:auto;
+    }
+    .mainRow5 h3{
+        padding-top:80%;
+        padding-bottom:20%;
+    }
+    .mainRow5 p{
+        display:none;
+    }
+    
+    .footerBottom div,span{
+        display:none;
+    }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+}
