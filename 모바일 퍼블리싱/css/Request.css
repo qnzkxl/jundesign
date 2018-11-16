@@ -71,7 +71,6 @@ a{
     background:#000;
     display:block;
 }
-
 /*레프트메뉴*/
 .sidenav {
     height: 100%;
@@ -112,7 +111,6 @@ a{
   .sidenav a {font-size: 18px;}
 }
 /*레프트메뉴*/
-
 /*서브 타이틀 시작*/
 .headerIn{}
 .headerIn p{
@@ -157,29 +155,62 @@ a{
     background:#d1dff2;
     margin-top:40px;
     padding-bottom:50px;
-    text-align:center;
     padding:50px 0;
 }
 
-#container h1{
-    font-size:25px;
-    padding-bottom:20px;
+.requestInfo{
+    width:90%;
+    margin:0 auto;
 }
-#container h1:before,#container h1:after{
-    content:"";
+.requestInfo li{
+    margin-bottom:30px;
+    border-bottom:solid 1px;
+}
+.requestInfo li input{
+    font-size:15px;
+    padding:10px 0;
+    width:100%;
+    background:none;
+    border:0 none;
+}
+.textBox{
+    text-align:center;
+}
+.textBox p{
+    text-align:left;
+    margin-left:20px;
+}
+.textBox textarea{
+    background:none;
+    border:solid 1px;
+    width:calc(100% - 40px);
+}
+
+.upLode{
+    text-align:center;
+}
+.upLode h3{
+    font-weight:400;
+    text-align:left;
+    margin-left:20px;
+    margin-top:10px;
+}
+.upLode p{
+    border:solid 1px;
+    text-indent:-9999px;
+    margin:20px;
+}
+.upLode span{
+    width:70px;
     display:inline-block;
-    width:30px;
-    height:15px;
-    background:#000;
-    margin:1px 10px;
+    border:solid 1px;
+    padding:15px 50px;
+    margin:10px;
 }
-#container p{
-    font-size:13px;
-    padding-bottom:20px;
-}
-#container img{
-    width:70%;
-    padding:20px 0;
+.upLode h1{
+    border:solid 1px;
+    padding:10px;
+    margin:20px;
 }
 
 /*푸터 시작*/

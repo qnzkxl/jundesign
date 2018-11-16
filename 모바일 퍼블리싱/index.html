@@ -6,6 +6,7 @@
 <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" /> 
 <link type="text/css" rel="stylesheet" href="css/slick.css"/>
 <link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link type="text/css" rel="stylesheet" href="font/fonts.css"/>
 <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="js/slick.min.js"></script>
 <script type="text/javascript">
@@ -19,6 +20,8 @@
             prevArrow:'',
             nextArrow:''
           });
+        $("#header").load("include/header.html");
+        $("#footer").load("include/footer.html");
 });
 </script>
 </head>
@@ -27,8 +30,7 @@
 <div id="wrap">
     <!--해더시작-->
     <header id="header">
-        <h1><a href="#">D.TRIBE</a></h1>
-        <div class="pannel"><a href="#"><span>패널</span></a></div>
+        
     </header>
     <!--해더 끝-->
     <!--메인슬라이더 시작-->
@@ -52,10 +54,10 @@
                 <h3><a href="sub/portfolio.html"><img src="images/con1_01.png"/></a></h3>
             </div>
             <div>
-                <h3><a href="#"><img src="images/con1_02.png"/></a></h3>
+                <h3><a href="sub/portfolio.html"><img src="images/con1_02.png"/></a></h3>
             </div>
             <div>
-                <h3><a href="#"><img src="images/con1_03.png"/></a></h3>
+                <h3><a href="sub/portfolio.html"><img src="images/con1_03.png"/></a></h3>
             </div>
         </div>
     </div>
@@ -75,14 +77,7 @@
     <!--컨테이너3 끝-->
     <!--푸터 시작-->
     <footer id="footer">
-        <h3>D.TRIBE</h3>
-        <div class="footerInfo">
-            <p>주)디트라이브</p>
-            <p>대표:정치헌</p>
-            <p>사업자등록번호:220-86-10218</p>
-            <p>tel.02.3016.3016</p>
-            <p>FAX.02.3016.3099</p>
-        </div>
+        
     </footer>
     <!--푸터 끝-->
 </div>
