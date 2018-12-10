@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!--[if IE 8 ]><html lang="en" class="ie8"><![endif]-->
+<!--[if IE 9 ]><html lang="en" class="ie9"><![endif]-->
+<!--[if (gt IE 9)|!(IE)]><!-->
+<html lang="ko">
+<!--<![endif]-->
+<head>
+	<meta charset="utf-8" />
+	<title>main</title>
+	<!-- stylesheet for demo and examples -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/jquery.mCustomScrollbar.min.css">
+    <link rel="stylesheet" type="text/css" href="font/fonts.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript" src="js/jquery.mCustomScrollbar.concat.min.js"></script>
+    <!-- Google CDN jQuery with fallback to local -->
+	<!-- custom scrollbar plugin -->
+	<script>
+		(function($){
+			$(window).on("load",function(){
+				/* 
+				get snap amount programmatically or just set it directly (e.g. "273") 
+				in this example, the snap amount is list item's (li) outer-width (width+margins)
+				*/
+				var amount=Math.max.apply(Math,$("#content-1 li").map(function(){return $(this).outerWidth(true);}).get());
+				
+				$("#content-1").mCustomScrollbar({
+					axis:"x",
+					theme:"inset",
+					advanced:{
+						autoExpandHorizontalScroll:true
+					},
+					scrollButtons:{
+						enable:true,
+						scrollType:"stepped"
+					},
+					keyboard:{scrollType:"stepped"},
+					snapAmount:amount,
+					mouseWheel:{scrollAmount:amount}
+				});
+			});
+            $('html, body, *').mousewheel(function(e, delta) {
+                    this.scrollLeft -= (delta * 40);
+                e.preventDefault();
+            });
+		})(jQuery);
+	</script>
+</head>
+<!--전체시작-->
+<body>
+    <header id="header">
+        <div class="pannel"><a href="#"><span>패널</span></a></div>
+    </header>
+	<div id="demo">
+		<section id="examples" class="snap-scrolling-example">
+			<!-- content -->
+			<div id="content-1" class="content horizontal-images">
+				<ul>
+					<li class="main">
+                        <div class="mainInfo">
+                            <p>Lee Yong Jun</p>
+                            <h1>Portfolio</h1>
+                            <span>web mobile html css</span>
+                        </div>
+                    </li>
+					<li class="con1">
+                        <div>
+                            <a href="sub/work/index.html">
+                            <div class="img"></div>
+                            <!--<img src="images/img02.png" />-->
+                            <h1>Work</h1>
+                            </a>
+                        </div>
+                    </li>
+					<li class="con2">
+                        <div>
+                            <a href="#">
+                            <div class="img2"></div>
+                            <!--<img src="images/img04.png" />-->
+                            <h1>About</h1>
+                            </a>
+                        </div>
+                    </li>
+					<li class="con3">
+                        <div>
+                            <a href="#">
+                            <div class="img3"></div>
+                            <!--<img src="images/img06.png" />-->
+                            <h1>Contact</h1>
+                            </a>
+                        </div>
+                    </li>
+                    
+                    <!--3d 박스-->
+                    <!--<div class="box1">
+                        <div class="stage">
+                            <div class="cube">
+                                <div class="side_bottom"></div>
+                                <div class="side_top"></div>
+                                <div class="side_back">Welcome</div>
+                                <div class="side_right">Welcome</div>
+                                <div class="side_left">Welcome</div>
+                                <div class="side_front">Welcome</div>
+                            </div>
+                        </div>
+                    </div>-->
+                    <!--3d 박스-->
+                    
+				</ul>
+			</div>
+		</section>
+	</div>
+	
+</body>
+</html>
