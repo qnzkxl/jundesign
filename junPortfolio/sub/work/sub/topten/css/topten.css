@@ -1,0 +1,172 @@
+@charset "utf-8";
+
+body,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.cf:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/*전체시작*/
+
+#wrap{
+    background:url(../images/background.png) no-repeat;
+    background-size:100% 100%;
+}
+
+.inner{
+    max-width:1200px;
+    margin:0 auto;
+}
+/*해더시작*/
+#header{}
+#header img{
+    width:5em;
+    position:fixed;
+    top:10%;
+    left:4%;
+}
+
+.pannel{
+    position:fixed;
+    top:35%;
+    left:5%;
+}
+.pannel a{}
+.pannel a span{
+    content:"";
+    display:block;
+    width:35px;
+    height:3px;
+    background:#000;
+    text-indent:-9999px;
+    margin:10px 0;
+}
+.pannel a:after,.pannel a:before{
+    content:"";
+    display:block;
+    width:35px;
+    height:3px;
+    background:#000;
+}
+.title{
+    padding-top:70px;
+}
+.title p{
+    margin:0;
+    font-size:100px;
+    display:inline-block;
+    font-family: 'Rozha One', serif;
+}
+/*해더끝*/
+
+.container{
+    padding:150px 0;
+    position:relative;
+}
+
+.titleInfo{
+    margin-left:10%;
+}
+
+.title{}
+.title img{
+    width:5%;
+}
+.title h1{}
+
+.color{
+    padding:20px 0;
+}
+.color p{
+    display:inline-block;
+    font-size:20px;
+    font-weight:600;
+    margin-right:30px;
+}
+.color span{
+    padding:5px 20px;
+    background:#ffcccb;
+}
+
+.font{}
+.font p{
+    display:inline-block;
+    font-size:20px;
+    font-weight:600;
+    margin-right:50px;
+}
+.font span{}
+
+.Info{}
+.Info p{
+    padding-top:20px;
+}
+
+.titleImg{
+    top:5%;
+    right: 10%;
+    position:absolute;
+}
+.titleImg img{
+    width: 80%;
+}
+
+.imgInfo{
+    position:relative;
+    margin-top:250px;
+    margin-left:40px;
+}
+.imgInfo01{}
+.imgInfo01 img{}
+.img{
+    position:absolute;
+    top:0;
+    left:30%;
+}
+.imgInfo02{
+    top:0;
+    left:30%;
+    float:left;
+}
+.imgInfo02 img{
+    padding:20px;
+}
+.imgInfo03{
+    bottom:0;
+    left:30%;
+    float:left;
+}
+.imgInfo03 img{
+    padding:20px;
+}
+
+.imgInfo03 img:last-child{
+    padding-bottom:59px;
+}
+
+
+
+
+
+
+
+
+
+
+
+

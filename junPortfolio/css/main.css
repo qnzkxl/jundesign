@@ -1,0 +1,92 @@
+@charset "utf-8";
+
+h1,h2,h3,h4,h5,h6,p,{
+    margin:0;
+}
+
+body{
+	margin: 0;
+	padding: 0;
+    position:relative;
+}
+
+a{
+    text-decoration:none;
+    color:#000;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.cf:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.inner{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+/*전체시작*/
+#wrap{
+    padding-top:50px;
+    position:relative;
+    
+}
+
+.mainImg{
+    width:1280px;
+    height:900px;
+    margin:0 auto;
+    background:url(../images/mainImg.png) no-repeat center center;
+    background-size:100% 100%;
+}
+
+#header{}
+#header img{
+    width:5em;
+    position:fixed;
+    top:5%;
+    left:4%;
+}
+
+
+.workBtn{
+    position:absolute;
+    top:50%;
+    left:5%;
+}
+.workBtn h1{}
+
+.aboutBtn{
+    position:absolute;
+    top:50%;
+    right:5%;
+}
+.aboutBtn h1{}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

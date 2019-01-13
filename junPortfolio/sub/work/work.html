@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ko">
+<!--해더시작-->
+<head>
+    <meta charset="utf-8">
+    <title>Work</title>
+    <link type="text/css" rel="stylesheet" href="css/work.css"/>
+    <link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        /*$(".hansol a").hover(function(){
+            $("#wrap").css({
+                "background":"url(images/hansolBack.png) center center",
+                "background-size":"cover",
+            });
+        },function(){
+            $("#wrap").css("background","#fff");
+        });*/
+        
+        $(".hansol a").hover(function(){
+            $("#background").toggleClass('hansolOn');
+        });
+        $(".topten a").hover(function(){
+            $("#background").toggleClass('toptenOn');
+        });
+        $(".dtribe a").hover(function(){
+            $("#background").toggleClass('dtribeOn');
+        });
+        $(".hollys a").hover(function(){
+            $("#background").toggleClass('hollysOn');
+        });
+        $(".samsung a").hover(function(){
+            $("#background").toggleClass('samsungOn');
+        });
+        
+        /*$(".topten a").hover(function(){
+            $("#wrap").css("background-image","url('images/toptenBack.png')");
+        },function(){
+            $("#wrap").css("background","#fff");
+        });*/
+    });
+    </script>
+</head>
+<!--해더끝-->
+<body>
+<!--전체시작-->
+<div id="background"></div>
+<div id="wrap">
+    <!--해더시작-->
+    <header id="header">
+        <div class="leftMenu">
+            <img src="../../images/logo.png" alt="로고이미지"/>
+            <div class="pannel"><a href="#"><span>패널</span></a></div>
+        </div>
+        <div class="title inner">
+            <p>Work</p>
+            <span>Lee Yong Jun Portfolio</span>
+        </div>
+    </header>
+    <div id="container">
+        <ul class="gnb inner">
+            <li class="hansol">
+                <a href="sub/hansol/hansol.html">Hansol Website</a>
+            </li>
+            <li class="topten"><a href="sub/topten/topten.html">TOPTEN Mobile Site</a></li>
+            <li class="dtribe"><a href="sub/dtribe/dtribe.html">D.TRIBE Website</a></li>
+            <li class="hollys"><a href="https://qnzkxl.github.io/jundesign/hollys/">HOLLYS COFFEE Coding</a></li>
+            <li class="samsung"><a href="#">Samsung Display Coding</a></li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>

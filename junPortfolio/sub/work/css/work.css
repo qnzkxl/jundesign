@@ -1,0 +1,145 @@
+@charset "utf-8";
+
+h1,h2,h3,h4,h5,h6,p,{
+    margin:0;
+}
+
+body{
+    font-family: 'Rozha One', serif;
+	margin:0;
+	padding:0;
+    position:relative;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+.cf:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+.inner{
+    max-width:1200px;
+    margin:0 auto;
+}
+#background{
+    width:100%;
+    height:100%;
+    position:fixed;
+}
+
+#wrap{
+    width:100%;
+    height:970px;
+    background-size:cover;
+    position:relative;
+}
+
+#header{
+    margin:0 5%;
+    position:relative;
+    padding-top:100px;
+}
+#header img{
+    width:5em;
+}
+
+.pannel{
+    width:35px;
+    margin-top:50px;
+    margin-left:20px;
+}
+.pannel a{}
+.pannel a span{
+    content:"";
+    display:block;
+    width:35px;
+    height:3px;
+    background:#000;
+    text-indent:-9999px;
+    margin:10px 0;
+}
+.pannel a:after,.pannel a:before{
+    content:"";
+    display:block;
+    width:35px;
+    height:3px;
+    background:#000;
+}
+.title{
+    margin-left:100px;
+    top:35%;
+    left:10%;
+    position: absolute;
+}
+
+.title p{
+    margin:0;
+    font-size:100px;
+    display:inline-block;
+}
+
+.title span{
+    padding-left:30px;
+    font-size:30px;
+    display:inline-block;
+}
+
+#container{}
+
+.gnb{
+    margin-left:20%;
+}
+.gnb li{
+    margin:100px 0;
+}
+.gnb li a{
+    font-size:55px;
+    color:#000;
+}
+.hansol{}
+.hansol a:hover,.topten a:hover,.dtribe a:hover,.hollys a:hover,.samsung a:hover{
+    color:#fff;
+    letter-spacing:25px;
+}
+
+
+.hansolOn{
+    background:url(../images/hansolBack.png) no-repeat center center;
+    background-size:cover;
+}
+.toptenOn{
+    background:url(../images/toptenBack.png) no-repeat center center;
+    background-size:cover;
+}
+.dtribeOn{
+    background:url(../images/dtribeBack.png) no-repeat center center;
+    background-size:cover;
+}
+.hollysOn{
+    background:url(../images/hollysBack.png) no-repeat center center;
+    background-size:cover;
+}
+.samsungOn{
+    background:url(../images/samsungBack.png) no-repeat center center;
+    background-size:cover;
+}
+
+
+
+
+
+
+
+
+
+

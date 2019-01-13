@@ -1,0 +1,191 @@
+@charset "utf-8";
+
+body,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+    padding:0;
+}
+
+body{
+    font-family:"Noto Sans",sans-serif;
+    background:#c6cfd9;
+}
+
+a{
+    text-decoration:none;
+}
+
+ul{
+    padding:0;
+    margin:0;
+    list-style:none;
+}
+
+.cf:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+/*전체시작*/
+
+#wrap{
+    max-width:1200px;
+    margin:0 auto;
+}
+
+/*해더시작*/
+#header{}
+#header img{
+    width:5em;
+    position:fixed;
+    top:10%;
+    left:4%;
+}
+
+.pannel{
+    position:fixed;
+    top:35%;
+    left:5%;
+}
+.pannel a{}
+.pannel a span{
+    content:"";
+    display:block;
+    width:35px;
+    height:3px;
+    background:#000;
+    text-indent:-9999px;
+    margin:10px 0;
+}
+.pannel a:after,.pannel a:before{
+    content:"";
+    display:block;
+    width:35px;
+    height:3px;
+    background:#000;
+}
+.title{
+    padding-top:70px;
+}
+.title p{
+    margin:0;
+    font-size:100px;
+    display:inline-block;
+    font-family: 'Rozha One', serif;
+}
+/*해더끝*/
+
+.container{}
+
+/*타이틀 내용,이미지 시작*/
+
+.titleInfo{
+    margin-left:10%;
+    margin-bottom:150px;
+}
+
+.title{}
+.title img{
+    width:5%;
+}
+.title h1{}
+
+.color{
+    padding:20px 0;
+}
+.color p{
+    display:inline-block;
+    font-size:20px;
+    font-weight:600;
+    margin-right:30px;
+}
+.color span{
+    padding:5px 20px;
+    background:#bd173d;
+    color:#fff;
+}
+
+.font{}
+.font p{
+    display:inline-block;
+    font-size:20px;
+    font-weight:600;
+    margin-right:50px;
+}
+.font span{}
+
+.Info{}
+.Info p{
+    padding-top:20px;
+}
+
+.titleImg{
+    top:30%;
+    right:15%;
+    position:absolute;
+}
+.titleImg img{
+    width: 30vw;
+}
+
+/*웹 이미지시작*/
+
+.imgInfo{
+    padding-top:100px;
+    position:relative;
+    margin-left:40px;
+}
+
+.webImg{
+    text-align:center;
+    background:url(../images/backimg.png) no-repeat;
+}
+
+.webImg h1{
+    background:#c6cfd9;
+    float: left;
+    margin-left: 100px;
+    margin-top: -45px;
+    padding: 10px 30px;
+    font-size: 50px;
+    color:#424141;
+}
+
+.webImg img{
+    padding:40px;
+}
+
+.line{
+    border: solid 10px #fff;
+    padding:60px;
+}
+
+/*모바일이미지 시작*/
+
+.mobileImg{
+    text-align:center;
+    margin:150px 0;
+}
+.mobileImg h1{
+    background:#c6cfd9;
+    float: left;
+    margin-left: 100px;
+    margin-top: -45px;
+    padding: 10px 30px;
+    font-size: 50px;
+    color:#424141;
+}
+.mobileImg img{
+    width:80%;
+    padding:50px;
+}
+
+
+
+
+
+
+
+
+
+
