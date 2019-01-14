@@ -154,6 +154,10 @@ ul{
         margin-left:0;
         left:0;
     }
+    .hansol a:hover,.topten a:hover,.dtribe a:hover,.hollys a:hover,.samsung a:hover{
+        color:#000;
+        letter-spacing:0;
+    }
 }
 
 
