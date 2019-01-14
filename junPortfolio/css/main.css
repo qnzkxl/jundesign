@@ -34,7 +34,9 @@ ul{
 
 /*전체시작*/
 #wrap{
+    padding-top:50px;
     position:relative;
+    
 }
 
 .mainImg{
@@ -43,7 +45,6 @@ ul{
     margin:0 auto;
     background:url(../images/mainImg.png) no-repeat center center;
     background-size:100% 100%;
-    margin-top:25px;
 }
 
 #header{}
@@ -71,24 +72,7 @@ ul{
 
 
 
-@media screen and (max-width:760px){
-    .mainImg{
-        width:100%;
-        height:400px;
-        margin-top:130px;
-    }
-    .workBtn{
-        top:100%;
-        left:15%;
-    }
-    .aboutBtn{
-        top:100%;
-        right:15%;
-    }
-	#header img{
-	width:4em;
-	}
-}
+
 
 
 

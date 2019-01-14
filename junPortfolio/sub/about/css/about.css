@@ -217,3 +217,73 @@ ul{
     vertical-align: middle;
     margin-left: 30px;
 }
+
+
+@media screen and (max-width:760px) {
+    #header{
+        padding-top:30px;
+    }
+    #header img{
+        width:4em;
+    }
+    .pannel{
+        margin:0;
+        position:absolute;
+        top:50px;
+        right:0;
+    }
+    .title{
+        margin-top:30px;
+        position:relative;
+        margin-left:0;
+        left:0;
+    }
+    
+    .con01Info{
+        padding-left:30px;
+    }
+    .con02Info{
+        width:350px;
+    }
+    .con02 img{
+        width:15%;
+    }
+    .grap1 h2,.grap2 h2,.grap3 h2,.grap4 h2{
+        width:250px;
+        height:20px;
+        margin-bottom:45px;
+    }
+    .grap2 h2{
+        width:220px;
+    }
+    .grap3 h2{
+        width:190px;
+    }
+    .grap4 h2{
+        width:150px;
+    }
+    .grap1 p,.grap2 p,.grap3 p,.grap4 p{
+        margin-bottom: 65px;
+    }
+    
+    .icon02{
+        margin-top:30px;
+        margin-left:-50px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
