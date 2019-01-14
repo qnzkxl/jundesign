@@ -242,28 +242,37 @@ ul{
     .con01Info{
         padding-left:30px;
     }
+    
+    .con01 h3{
+        font-size:20px;
+    }
+    .con01 p{
+        font-size:20px;
+    }
+    
     .con02Info{
-        width:350px;
+        width:310px;
     }
     .con02 img{
         width:15%;
     }
     .grap1 h2,.grap2 h2,.grap3 h2,.grap4 h2{
-        width:250px;
+        width:220px;
         height:20px;
         margin-bottom:45px;
     }
     .grap2 h2{
-        width:220px;
+        width:200px;
     }
     .grap3 h2{
-        width:190px;
+        width:170px;
     }
     .grap4 h2{
         width:150px;
     }
     .grap1 p,.grap2 p,.grap3 p,.grap4 p{
-        margin-bottom: 65px;
+        margin-bottom:30px;
+        vertical-align:20px;
     }
     
     .icon02{
