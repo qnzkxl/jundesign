@@ -27,18 +27,19 @@ body{
 #wrap{}
 
 /*해더시작*/
-#header{}
+#header{
+    margin:0 5%;
+    position:relative;
+    padding-top:100px;
+}
 #header img{
     width:5em;
-    position:fixed;
-    top:10%;
-    left:4%;
 }
 
 .pannel{
-    position:fixed;
-    top:35%;
-    left:5%;
+    width:35px;
+    margin-top:50px;
+    margin-left:20px;
 }
 .pannel a{}
 .pannel a span{
@@ -58,11 +59,14 @@ body{
     background:#000;
 }
 .title{
-    padding-top:70px;
+    margin-left:100px;
+    top:35%;
+    left:10%;
+    position: absolute;
 }
 .title p{
     margin:0;
-    font-size:100px;
+    font-size:95px;
     display:inline-block;
     font-family: 'Rozha One', serif;
 }
@@ -71,13 +75,14 @@ body{
     margin-top:100px;
 }
 .titleImg h3{
-    margin:0 170px;
-    width: 280px;
-    text-align: right;
-    font-size: 40px;
+    margin:0 7%;
+    width:280px;
+    text-align:right;
+    font-size:40px;
     display: inline-block;
 }
 .titleImg img{
+    width:50%;
     vertical-align:middle;
 }
 .titleImg span{}
@@ -87,7 +92,10 @@ body{
     margin-top:200px;
 }
 .con01 img{
-    margin-top:120px;
+    width:80%;
+    margin:0 auto;
+    display:block;
+    padding-top:120px;
 }
 .con01Title{
     width: 640px;

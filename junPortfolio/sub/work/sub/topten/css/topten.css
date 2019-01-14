@@ -33,18 +33,19 @@ ul{
     margin:0 auto;
 }
 /*해더시작*/
-#header{}
+#header{
+    margin:0 5%;
+    position:relative;
+    padding-top:100px;
+}
 #header img{
     width:5em;
-    position:fixed;
-    top:10%;
-    left:4%;
 }
 
 .pannel{
-    position:fixed;
-    top:35%;
-    left:5%;
+    width:35px;
+    margin-top:50px;
+    margin-left:20px;
 }
 .pannel a{}
 .pannel a span{
@@ -64,7 +65,10 @@ ul{
     background:#000;
 }
 .title{
-    padding-top:70px;
+    margin-left:100px;
+    top:35%;
+    left:10%;
+    position: absolute;
 }
 .title p{
     margin:0;
@@ -83,11 +87,11 @@ ul{
     margin-left:10%;
 }
 
-.title{}
-.title img{
+.conTitle{}
+.conTitle img{
     width:5%;
 }
-.title h1{}
+.conTitle h1{}
 
 .color{
     padding:20px 0;
@@ -132,7 +136,9 @@ ul{
     margin-left:40px;
 }
 .imgInfo01{}
-.imgInfo01 img{}
+.imgInfo01 img{
+    width:25%;
+}
 .img{
     position:absolute;
     top:0;
@@ -144,6 +150,7 @@ ul{
     float:left;
 }
 .imgInfo02 img{
+    width:25%;
     padding:20px;
 }
 .imgInfo03{
@@ -152,6 +159,7 @@ ul{
     float:left;
 }
 .imgInfo03 img{
+    width:25%;
     padding:20px;
 }
 
