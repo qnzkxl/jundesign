@@ -131,7 +131,7 @@ ul{
 
 /*스킬*/
 .con02{
-    margin-top:250px;
+    margin-top:100px;
 }
 .con02 h1{
     padding-top:50px;
@@ -174,7 +174,7 @@ ul{
 /*contact*/
 .con03{
     height:600px;
-    margin-top:200px;
+    margin-top:100px;
     background:url(../images/contact.png) no-repeat;
     background-size:100% 100%;
     text-align:center;
@@ -224,7 +224,7 @@ ul{
         padding-top:30px;
     }
     #header img{
-        width:4em;
+        width:3em;
     }
     .pannel{
         margin:0;
@@ -239,6 +239,12 @@ ul{
         left:0;
     }
     
+    .title p{
+        font-size:70px;
+    }
+    .title span{
+        font-size:25px;
+    }
     .con01Info{
         padding-left:30px;
     }
@@ -250,11 +256,19 @@ ul{
         font-size:20px;
     }
     
+    .con02 h1{
+        font-size:40px;
+    }
+    
     .con02Info{
         width:310px;
     }
     .con02 img{
         width:15%;
+    }
+    
+    .con03 h1{
+        font-size:40px;
     }
     .grap1 h2,.grap2 h2,.grap3 h2,.grap4 h2{
         width:220px;
