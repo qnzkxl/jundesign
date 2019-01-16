@@ -39,7 +39,6 @@ ul{
 
 #wrap{
     width:100%;
-    height:970px;
     background-size:cover;
     position:relative;
 }
@@ -53,7 +52,7 @@ ul{
     width:5em;
 }
 
-.pannel{
+/*.pannel{
     width:35px;
     margin-top:50px;
     margin-left:20px;
@@ -74,7 +73,77 @@ ul{
     width:35px;
     height:3px;
     background:#000;
+}*/
+
+/*레프트메뉴*/
+.pannel{
+    position:absolute;
+    top:50%;
+    right:10px;
+    margin-top:-8px;
 }
+.pannel a{
+    display:block;
+}
+.pannel a span{
+    width:35px;
+    height:3px;
+    background:#000;
+    display:block;
+    text-indent:-9999px;
+    margin:10px 0;
+}
+
+.pannel a:before,.pannel a:after{
+    content:"";
+    width:35px;
+    height:3px;
+    background:#000;
+    display:block;
+}
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    width:760px;
+/*    padding: 8px 8px 8px 32px;*/
+    text-decoration: none;
+    font-size: 50px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align:center;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    width:0;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+/*@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}*/
+/*레프트메뉴*/
+
 .title{
     margin-left:100px;
     top:35%;
@@ -107,9 +176,14 @@ ul{
     color:#000;
 }
 .hansol{}
-.hansol a:hover,.topten a:hover,.dtribe a:hover,.hollys a:hover,.samsung a:hover{
+.hansol a:hover,.topten a:hover,.dtribe a:hover,.hollys a:hover,.samsung a:hover,.hansolCoding a:hover{
     color:#fff;
     letter-spacing:25px;
+/*    background: transparent;
+    -webkit-transition: background 1s;
+    -moz-transition: background 1s;
+    -o-transition: background 1s;
+    transition: background 1s;*/
 }
 
 
@@ -139,24 +213,57 @@ ul{
 }
 
 
+.openNav{
+    width:40%;
+    text-align:center;
+}
+
 @media screen and (max-width:760px) {
+    #background{
+        display:none;
+    }
     #header{
-        padding-top:30px;
+        padding:0;
     }
     #header img{
-        width:4em;
+        width:3em;
+    }
+    .openNav{
+        width:100%;
+    }
+    .closeNav{
+        width:0;
+    }
+    
+    .sidenav a{
+        width:100%;
     }
     .pannel{
-        margin:0;
-        position:absolute;
-        top:50px;
-        right:0;
+        top:15%;
+    }
+    .leftMenu{
+        margin:20px 0;
     }
     .title{
-        margin-top:30px;
-        position:relative;
         margin-left:0;
+        position:relative;
         left:0;
+    }
+    .title p{
+        font-size:60px;
+    }
+    .title span{
+        padding-left:5px;
+        font-size:15px;
+    }
+    .gnb{
+        margin-left:10%;
+    }
+    .gnb li{
+        margin:50px 0;
+    }
+    .gnb li a{
+        font-size:25px;
     }
     .hansol a:hover,.topten a:hover,.dtribe a:hover,.hollys a:hover,.samsung a:hover{
         color:#000;
