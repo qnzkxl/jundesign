@@ -46,10 +46,11 @@ ul{
     position:relative;
     padding-top:100px;
 }
-#header img{
+#header img{}
+
+.leftMunu img{
     width:5em;
 }
-
 /*레프트메뉴*/
 .pannel{
     position:absolute;
@@ -91,7 +92,7 @@ ul{
 
 .sidenav a {
     width:760px;
-/*    padding: 8px 8px 8px 32px;*/
+    padding:20px 0;
     text-decoration: none;
     font-size: 50px;
     color: #818181;
@@ -108,11 +109,14 @@ ul{
     width:0;
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 80px;
     font-size: 36px;
     margin-left: 50px;
 }
-
+.closebtn img{
+    width:25px;
+    height:25px;
+}
 .openNav{
     width:40%;
     text-align:center;
@@ -273,14 +277,14 @@ ul{
     #header{
         padding:0;
     }
-    #header img{
-        width:3em;
-    }
     .openNav{
         width:100%;
     }
     .closeNav{
         width:0;
+    }
+    .sidenav .closebtn{
+        right:60px;
     }
     
     .sidenav a{
@@ -291,6 +295,9 @@ ul{
     }
     .leftMenu{
         margin:20px 0;
+    }
+    .leftMenu img{
+        width:3em;
     }
     .title{
         position:relative;

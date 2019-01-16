@@ -48,7 +48,9 @@ ul{
     position:relative;
     padding-top:100px;
 }
-#header img{
+#header img{}
+
+.leftMenu img{
     width:5em;
 }
 
@@ -116,7 +118,7 @@ ul{
 
 .sidenav a {
     width:760px;
-/*    padding: 8px 8px 8px 32px;*/
+    padding:20px 0;
     text-decoration: none;
     font-size: 50px;
     color: #818181;
@@ -133,9 +135,14 @@ ul{
     width:0;
     position: absolute;
     top: 0;
-    right: 25px;
+    right: 80px;
     font-size: 36px;
     margin-left: 50px;
+}
+
+.closebtn img{
+    width:25px;
+    height:25px;
 }
 .openNav{
     width:40%;
@@ -224,9 +231,6 @@ ul{
     #header{
         padding:0;
     }
-    #header img{
-        width:3em;
-    }
     .openNav{
         width:100%;
     }
@@ -234,6 +238,9 @@ ul{
         width:0;
     }
     
+    .sidenav .closebtn{
+        right:60px;
+    }
     .sidenav a{
         width:100%;
     }
@@ -242,6 +249,9 @@ ul{
     }
     .leftMenu{
         margin:20px 0;
+    }
+    .leftMenu img{
+        width:3em;
     }
     .title{
         margin-left:0;
