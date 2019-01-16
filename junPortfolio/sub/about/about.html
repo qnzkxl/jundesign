@@ -8,6 +8,18 @@
     <link type="text/css" rel="stylesheet" href="css/about.css"/>
     <link href="https://fonts.googleapis.com/css?family=Rozha+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+KR" rel="stylesheet">
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script type="text/javascript">
+    $(document).ready(function(){
+        $(".pannel").click(function(){
+            $("#mySidenav").addClass('openNav');
+        });
+        
+        $(".closebtn").click(function(){
+            $("#mySidenav").removeClass('openNav');
+        });
+    });
+    </script>
 </head>
 <!--해더끝-->
 <body>
@@ -17,8 +29,29 @@
     <header id="header">
         <div class="leftMenu">
             <img src="../../images/logo.png" alt="로고이미지"/>
-            <div class="pannel"><a href="#"><span>패널</span></a></div>
         </div>
+        
+        <!--레프트메뉴-->
+            <div id="mySidenav" class="sidenav">
+                  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+                  <a href="../../index.html">HOME</a>
+                  <a href="../about/about.html">Work</a>
+                  <a href="">About</a>
+            </div>
+              <!--  <script>
+                function openNav() {
+                    document.getElementById("mySidenav").style.width = "50%";
+                    document.getElementById("mySidenav").style.textAlign = "center";
+                }
+
+                function closeNav() {
+                    document.getElementById("mySidenav").style.width = "0";
+                }
+
+                </script>-->
+        <div class="pannel" onclick="openNav()"><a href="#"><span>패널</span></a></div>
+            <!--레프트메뉴-->
+        
         <div class="title inner">
             <p>About</p>
             <span>Lee Yong Jun Portfolio</span>

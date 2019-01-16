@@ -137,6 +137,10 @@ ul{
     font-size: 36px;
     margin-left: 50px;
 }
+.openNav{
+    width:40%;
+    text-align:center;
+}
 
 /*@media screen and (max-height: 450px) {
   .sidenav {padding-top: 15px;}
@@ -213,11 +217,6 @@ ul{
 }
 
 
-.openNav{
-    width:40%;
-    text-align:center;
-}
-
 @media screen and (max-width:760px) {
     #background{
         display:none;
@@ -239,7 +238,7 @@ ul{
         width:100%;
     }
     .pannel{
-        top:15%;
+        top:10%;
     }
     .leftMenu{
         margin:20px 0;

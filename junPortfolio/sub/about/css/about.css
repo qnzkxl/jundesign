@@ -50,29 +50,79 @@ ul{
     width:5em;
 }
 
-/*메뉴버튼*/
+/*레프트메뉴*/
 .pannel{
-    width:35px;
-    margin-top:50px;
-    margin-left:20px;
+    position:absolute;
+    top:50%;
+    right:10px;
+    margin-top:-8px;
 }
-.pannel a{}
-.pannel a span{
-    content:"";
+.pannel a{
     display:block;
+}
+.pannel a span{
     width:35px;
     height:3px;
     background:#000;
+    display:block;
     text-indent:-9999px;
     margin:10px 0;
 }
-.pannel a:after,.pannel a:before{
+
+.pannel a:before,.pannel a:after{
     content:"";
-    display:block;
     width:35px;
     height:3px;
     background:#000;
+    display:block;
 }
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    width:760px;
+/*    padding: 8px 8px 8px 32px;*/
+    text-decoration: none;
+    font-size: 50px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align:center;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    width:0;
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.openNav{
+    width:40%;
+    text-align:center;
+}
+
+/*@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}*/
+/*레프트메뉴*/
 
 /*페이지타이틀*/
 
@@ -131,7 +181,7 @@ ul{
 
 /*스킬*/
 .con02{
-    margin-top:100px;
+    margin-top:250px;
 }
 .con02 h1{
     padding-top:50px;
@@ -221,29 +271,39 @@ ul{
 
 @media screen and (max-width:760px) {
     #header{
-        padding-top:30px;
+        padding:0;
     }
     #header img{
         width:3em;
     }
+    .openNav{
+        width:100%;
+    }
+    .closeNav{
+        width:0;
+    }
+    
+    .sidenav a{
+        width:100%;
+    }
     .pannel{
-        margin:0;
-        position:absolute;
-        top:50px;
-        right:0;
+        top:10%;
+    }
+    .leftMenu{
+        margin:20px 0;
     }
     .title{
-        margin-top:30px;
         position:relative;
         margin-left:0;
         left:0;
     }
     
     .title p{
-        font-size:70px;
+        font-size:55px;
     }
     .title span{
-        font-size:25px;
+        padding-left:5px;
+        font-size:15px;
     }
     .con01Info{
         padding-left:30px;
@@ -255,7 +315,9 @@ ul{
     .con01 p{
         font-size:20px;
     }
-    
+    .con02{
+        margin-top:50px;
+    }
     .con02 h1{
         font-size:40px;
     }
