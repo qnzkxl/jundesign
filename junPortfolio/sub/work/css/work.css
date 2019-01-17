@@ -35,6 +35,8 @@ ul{
     width:100%;
     height:100%;
     position:fixed;
+    opacity:0;
+    transition:all 0.5s;
 }
 
 #wrap{
@@ -117,7 +119,7 @@ ul{
 }
 
 .sidenav a {
-    width:760px;
+    width:40vw;
     padding:20px 0;
     text-decoration: none;
     font-size: 50px;
@@ -189,7 +191,7 @@ ul{
 .hansol{}
 .hansol a:hover,.topten a:hover,.dtribe a:hover,.hollys a:hover,.samsung a:hover,.hansolCoding a:hover{
     color:#fff;
-    letter-spacing:25px;
+    /*letter-spacing:25px;*/
 /*    background: transparent;
     -webkit-transition: background 1s;
     -moz-transition: background 1s;
@@ -198,29 +200,36 @@ ul{
 }
 
 
-.hansolOn{
+#background.hansolOn{
     background:url(../images/hansolBack.png) no-repeat center center;
     background-size:cover;
+    opacity:1;
+   
 }
-.toptenOn{
+#background.toptenOn{
     background:url(../images/toptenBack.png) no-repeat center center;
     background-size:cover;
+    opacity:1;
 }
-.dtribeOn{
+#background.dtribeOn{
     background:url(../images/dtribeBack.png) no-repeat center center;
     background-size:cover;
+    opacity:1;
 }
-.hollysOn{
+#background.hollysOn{
     background:url(../images/hollysBack.png) no-repeat center center;
     background-size:cover;
+    opacity:1;
 }
-.samsungOn{
+#background.samsungOn{
     background:url(../images/samsungBack.png) no-repeat center center;
     background-size:cover;
+    opacity:1;
 }
-.hansolCodingOn{
+#background.hansolCodingOn{
     background:url(../images/hansolcodingBack.png) no-repeat center center;
     background-size:cover;
+    opacity:1;
 }
 
 
