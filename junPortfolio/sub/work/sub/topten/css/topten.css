@@ -38,32 +38,89 @@ ul{
     position:relative;
     padding-top:100px;
 }
-#header img{
+#header img{}
+.leftMenu img{
     width:5em;
 }
 
+/*레프트메뉴*/
 .pannel{
-    width:35px;
-    margin-top:50px;
-    margin-left:20px;
+    position:absolute;
+    top:50%;
+    right:10px;
+    margin-top:-8px;
 }
-.pannel a{}
-.pannel a span{
-    content:"";
+.pannel a{
     display:block;
+}
+.pannel a span{
     width:35px;
     height:3px;
     background:#000;
+    display:block;
     text-indent:-9999px;
     margin:10px 0;
 }
-.pannel a:after,.pannel a:before{
+
+.pannel a:before,.pannel a:after{
     content:"";
-    display:block;
     width:35px;
     height:3px;
     background:#000;
+    display:block;
 }
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    width:40vw;
+    padding:20px 0;
+    text-decoration: none;
+    font-size: 50px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+    text-align:center;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    width:0;
+    position: absolute;
+    top: 0;
+    right: 80px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+.closebtn img{
+    width:25px;
+    height:25px;
+}
+.openNav{
+    width:40%;
+    text-align:center;
+}
+
+/*@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}*/
+/*레프트메뉴*/
+
 .title{
     margin-left:100px;
     top:35%;
@@ -72,7 +129,7 @@ ul{
 }
 .title p{
     margin:0;
-    font-size:100px;
+    font-size:90px;
     display:inline-block;
     font-family: 'Rozha One', serif;
 }
