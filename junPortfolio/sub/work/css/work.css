@@ -201,7 +201,7 @@ ul{
 
 
 #background.hansolOn{
-    background:url(../images/hansolBack.png) no-repeat center center;
+    background:url(../images/hansolBack.jpg) no-repeat center center;
     background-size:cover;
     opacity:1;
    
@@ -212,22 +212,22 @@ ul{
     opacity:1;
 }
 #background.dtribeOn{
-    background:url(../images/dtribeBack.png) no-repeat center center;
+    background:url(../images/dtribeBack.jpg) no-repeat center center;
     background-size:cover;
     opacity:1;
 }
 #background.hollysOn{
-    background:url(../images/hollysBack.png) no-repeat center center;
+    background:url(../images/hollysBack.jpg) no-repeat center center;
     background-size:cover;
     opacity:1;
 }
 #background.samsungOn{
-    background:url(../images/samsungBack.png) no-repeat center center;
+    background:url(../images/samsungBack.jpg) no-repeat center center;
     background-size:cover;
     opacity:1;
 }
 #background.hansolCodingOn{
-    background:url(../images/hansolcodingBack.png) no-repeat center center;
+    background:url(../images/hansolcodingBack.jpg) no-repeat center center;
     background-size:cover;
     opacity:1;
 }
