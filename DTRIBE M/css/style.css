@@ -1,0 +1,311 @@
+@charset "utf-8";
+
+body,h1,h2,h3,h4,h5,h6,p{
+    margin:0;
+}
+
+body{
+    font-family:"NotoSans",sans-serif;
+}
+
+ul{
+    margin:0;
+    padding:0;
+    list-style:none;
+}
+
+a{
+    text-decoration:none;
+}
+
+.cf:after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+#wrap{
+    width:100%;
+}
+
+/*해더*/
+#header{
+    height:60px;
+    background:#bd173d;
+    position:relative;
+}
+#header h1{
+    width:135px;
+    height:27px;
+    font-size:30px;
+    padding:10px;
+    
+}
+
+#header h1 a{
+    display:block;
+    color:#fff;
+}
+
+.pannel{
+    position:absolute;
+    top:50%;
+    right:10px;
+    margin-top:-8px;
+}
+.pannel a{
+    display:block;
+}
+.pannel a span{
+    width:25px;
+    height:2px;
+    background:#fff;
+    display:block;
+    text-indent:-9999px;
+    margin:5px 0;
+}
+
+.pannel a:before,.pannel a:after{
+    content:"";
+    width:25px;
+    height:2px;
+    background:#fff;
+    display:block;
+}
+/*레프트메뉴*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    right: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 15px;}
+  .sidenav a {font-size: 18px;}
+}
+/*레프트메뉴*/
+/*메인 슬라이더*/
+.mainSlider{
+    width:100%;
+    height:500px;
+    color:#fff;
+    text-align:center;
+    background:url(../images/mainSlider.png) no-repeat center center;
+    background-size:cover;
+    position:relative;
+}
+.mainSlider h1{
+    padding-top:150px;
+}
+.mainSlider p{
+    font-size:12px;
+    padding:10px 0;
+}
+
+.mainSlider img{
+    width:20px;
+    padding-top:110px;
+}
+
+.sliderRight{
+    position:absolute;
+    top:0;
+    right:0;
+    text-align:right;
+    margin-top:20px;
+}
+.sliderRight img{
+    width:27px;
+    padding-top:0;
+    margin-right:5px;
+}
+.sliderRight p{
+    color:#fff;
+    transform:rotate(270deg);
+    padding:100px 0 0 0;
+    margin-top:270px;
+    margin-right:0px;
+}
+.line{
+    width:2px;
+    height:230px;
+    background:#fff;
+    position:absolute;
+    font-size:0;
+    right:18px;
+    margin-top:15px;
+}
+
+/*컨텐츠 1*/
+.container1{
+    background:#e0dfdc;
+    height:530px;
+}
+.container1 h1{
+    text-align:center;
+    padding:30px 0;
+}
+.container1 ul{
+    display:inline-block;
+}
+.container1 ul li{
+    float:left;
+}
+.container1 ul li a{}
+.container1 ul li a img{}
+
+.container1 .variable img{
+    width:250px;
+    box-shadow:10px 10px 10px 0px #999;
+}
+.container1 .variable .slick-slide{
+    margin:10px;
+}
+
+/*컨텐츠 2*/
+.container2{
+    height:500px;
+    text-align:center;
+}
+.container2 a{}
+.container2 a img{
+    width:300px;
+    height:300px;
+    margin-top:70px;
+}
+.container2 h1{
+    width:300px;
+    height:50px;
+    line-height:50px;
+    font-size:25px;
+    border:solid 1px #999;
+    margin:0 auto;
+    margin-top:20px;
+}
+.container2 h1 a{
+    display:block;
+    color:#000;
+}
+
+/*컨텐츠 3*/
+.container3{
+    width:100%;
+    height:330px;
+    padding-top:60px;
+    background:#e0dfdc;
+    position:relative;
+}
+.container3 h1{
+    height:200px;
+    line-height:50px;
+    padding-top:40px;
+    padding-left:15px;
+    padding-right:15px;
+    font-size:25px;
+    background:#a09a8e;
+    color:#fff;
+    display:inline-block;
+
+}
+.container3 span{
+    width:calc(70% - 36px);
+    height:240px;
+    background:url(../images/con3.png) no-repeat;
+    background-size:cover;
+    background-position:center center;
+    text-indent:-9999px;
+    display:inline-block;
+    position:absolute;
+    
+}
+.container3 h2{}
+
+.container3 h2 img{
+    margin-top:-60px;
+    left:30px;
+    padding:30px;
+    background:#6b6966;
+    position:absolute;
+}
+
+
+/*푸터*/
+#footer{
+    text-align:center;
+    color:#fff;
+    background:#2a2a2a;
+}
+#footer h3{
+    padding:20px;
+}
+#footer p{
+    display:inline-block;
+    font-size:12px;
+}
+#footer p:after{
+    content:"";
+    display:inline-block;
+    width:1px;
+    height:8px;
+    background:#fff;
+    margin:0 auto;
+    margin-left:10px;
+}
+#footer p:nth-child(3):after{
+    display:none;
+}
+#footer p:last-child:after{
+    display:none;
+}
+
+.footerInfo{
+    padding-bottom:20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

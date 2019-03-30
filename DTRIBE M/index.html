@@ -1,0 +1,105 @@
+<!DOVTYPE html>
+<html lang="ko">
+<head>
+<meta charset="utf-8">
+<title>디트라이브</title>
+<meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" /> 
+<link type="text/css" rel="stylesheet" href="css/slick.css"/>
+<link type="text/css" rel="stylesheet" href="css/style.css"/>
+<link type="text/css" rel="stylesheet" href="font/fonts.css"/>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script type="text/javascript" src="js/slick.min.js"></script>
+<script type="text/javascript">
+    $(document).ready(function(){
+         $(".variable").slick({
+            slidesToShow: 2,
+            slidesToScroll: 1,
+            dots: false,
+            infinite: true,
+            variableWidth: true,
+            prevArrow:'',
+            nextArrow:''
+          });
+        $("#header").load("include/header.html");
+        $("#footer").load("include/footer.html");
+});
+</script>
+</head>
+<body>
+<!--전체시작-->
+<div id="wrap">
+    <!--해더시작-->
+    <header id="header">
+        
+    </header>
+    <!--해더 끝-->
+    <!--메인슬라이더 시작-->
+    <div class="mainSlider">
+        <h1>D.TRIBE</h1>
+        <p>디트라이브는 차별화된 캠페인을 통해<br/>많은 브랜드를 성장시키고 함께 발전을 거듭하였습니다</p>
+        <img src="images/mainSlider%20mouse.png" alt="스크롤이미지"/>
+        <p>SCROLL</p>
+        <div class="sliderRight">
+            <img src="images/mainSlider_01.png" alt="D이미지"/>
+            <div class="line">라인</div>
+            <p>브랜드를 키우는 에이전시</p>
+        </div>
+    </div>
+    <!--메인슬라이더 끝-->
+    <!--컨테이너1 시작-->
+    <div class="container1">
+        <h1>Socila Maketing</h1>
+        <div class="variable slider">
+            <div>
+                <h3><a href="sub/portfolio.html"><img src="images/con1_01.png"/></a></h3>
+            </div>
+            <div>
+                <h3><a href="sub/portfolio.html"><img src="images/con1_02.png"/></a></h3>
+            </div>
+            <div>
+                <h3><a href="sub/portfolio.html"><img src="images/con1_03.png"/></a></h3>
+            </div>
+        </div>
+    </div>
+    <!--컨테이너1 끝-->
+    <!--컨테이너2 시작-->
+    <div class="container2">
+        <a href="#"><img src="images/con2.png"/></a>
+        <h1><a href="#">A&amp;D Marketing</a></h1>
+    </div>
+    <!--컨테이너2 끝-->
+    <!--컨테이너3 시작-->
+    <div class="container3 cf">
+        <h1>Digital<br/>Marketing</h1>
+        <span>이미지영역</span>
+        <h2><a href="#"><img src="images/con3_icon.png"/></a></h2>
+    </div>
+    <!--컨테이너3 끝-->
+    <!--푸터 시작-->
+    <footer id="footer">
+        
+    </footer>
+    <!--푸터 끝-->
+</div>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

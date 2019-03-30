@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <title>디트라이브 portfolio</title>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, width=device-width" />
+    <link type="text/css" rel="stylesheet" href="../css/portfolio.css"/>
+    <link type="text/css" rel="stylesheet" href="../font/fonts.css"/>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <script>
+        $(document).ready(function(){
+            $("#header").load("../include/subheader.html");
+            $("#footer").load("../include/footer.html");
+    //prependTo()를 사용해서 더보기 
+       /* $('.more').on('click', function(){
+            $('<li><img src="../images/portfolio04.jpg"></li>').prependTo('.last_li');	//여기다 데이터를 저장해서 불러오기
+        });*/
+            /*
+            $(".last_li").click(function(){
+            $(".imgs").toggle(500);
+        })
+        */
+            /*
+            $(".last_li").click(function(){
+            $(this).parent().next().slideDown("fast");
+        })
+        */
+            var ul = $(".conImg ul");
+            $(".more").click(function() {
+                var li = $("<li><a href=\"#\"><img src=\"../images/portfolio04.jpg\" alt=\"롯대월드 어드벤처 이미지\"/><h1>롯데월드 워터파크</h1></a></li>");
+                ul.append(li);
+            })
+    })
+    </script>
+</head>
+<body>
+    <div id="wrap">
+        <!--해더 시작-->
+        <header id="header">
+
+        </header>
+        <!--해더 끝-->
+        <!--서브타이틀 시작-->
+        <div class="headerIn">
+            <p>Portfolio</p>
+            <h1>Social,A&amp;D,Digital Marketing</h1>
+        </div>
+        <div class="nav">
+            <span>홈</span>
+            <span>Portfolio</span>
+        </div>
+        <!--서브타일틀 끝-->
+        <!--컨테이너 시작-->
+        <div id="container">
+            <ul class="conTitle">
+                <li class="first"><a href="#">Social<br/>Marketing</a></li>
+                <li><a href="#">A&amp;D<br/>Marketing</a></li>
+                <li><a href="#">Digital<br/>Marketing</a></li>
+            </ul>
+            <div class="conImg">
+                <ul>
+                    <li>
+                        <a href="../sub/social01.html">
+                        <img src="../images/portfolio01.jpg" alt="롯대월드 서울스카이 이미지"/>
+                        <h1>롯데월드 서울 스카이</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <img src="../images/portfolio02.jpg" alt="롯대월드 아쿠아리움 이미지"/>
+                        <h1>롯데월드 아쿠아리움</h1>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                        <img src="../images/portfolio03.jpg" alt="롯대월드 어드벤처 이미지"/>
+                        <h1>롯데월드 어드벤처</h1>
+                        </a>
+                    </li>                    
+                </ul>
+                <div  class="more">
+                    <a href="#">
+                        <img src="../images/plusBtn.png" alt="플러스버튼"/>
+                        더보기
+                    </a>
+                </div>
+<!--                    <div class="imgs"><img src="../images/portfolio04.jpg"/></div>-->
+<!--                </li>-->
+            </div>
+        </div>
+        <!--컨테이너 끝-->
+        <!--푸터 시작-->
+        <footer id="footer">
+            
+        </footer>
+        <!--푸터 끝-->
+    </div>
+</body>
+</html>
