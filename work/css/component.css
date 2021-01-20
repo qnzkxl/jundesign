@@ -656,6 +656,31 @@ body{
 	.grid__item--size-a {
 		width:100%;
 	}
+    
+    .contentPopup,.contentPopup2,.contentPopup3{
+        height:auto;
+    }
+    #contrnt4,#contrnt5,#contrnt6,#contrnt7,#contrnt8,#contrnt9{
+        height:10%;
+    }
+    #contrnt10,#contrnt11{
+        height:20%;
+    }
+    .banner{
+        padding:10%;
+    }
+    .bannerWrap div:nth-child(3){
+        margin-right:9%;
+    }
+    #con10Img a img, #con11Img a img{
+        width:700px;
+    }
+    #con10Img,#con11Img{
+        margin-left: 4%;
+        display: inline-table;
+        margin-right: 0;
+        line-height: 0;
+    }
 }
 
 @media screen and (max-width: 50em) {
