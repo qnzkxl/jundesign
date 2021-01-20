@@ -657,12 +657,13 @@ body{
 		width:100%;
 	}
     
-    .contentPopup{
+    .contentPopup,.contentPopup3{
         width:80%;
     }
     
-    .contentPopup2,.contentPopup3{
+    .contentPopup2{
         height:auto;
+	width:80%;
     }
     #contrnt4,#contrnt5,#contrnt6,#contrnt7,#contrnt8,#contrnt9{
         height:50%;
@@ -694,14 +695,21 @@ body{
         height:120px;
         border-radius:120px;
     }
-    .closePopup2, .closePopup3, .closePopup10, .closePopup11{
+    .closePopup2{
+        top:15%;
+        right:4%;
+        width:120px;
+        height:120px;
+        border-radius:120px;
+    }
+    .closePopup10, .closePopup11{
         right:4%;
         top:25%;
         width:120px;
         height:120px;
         border-radius:120px;
     }
-    .closePopup{
+    .closePopup, .closePopup3{
         right:4%;
         top:1%;
         width:120px;
