@@ -747,7 +747,7 @@ a {
       font-size: 18px; }
     .portfolio-item .portfolio-item-content p, .blog-item .portfolio-item-content p {
       font-size: 12px;
-      color: rgba(255, 255, 255, 0.5);
+      color: #fff;
       font-family: "Arimo", sans-serif; }
   .portfolio-item:hover .overlay, .blog-item:hover .overlay {
     opacity: 1;
@@ -1592,3 +1592,70 @@ span.error {
   background: #f8f9fa; }
 
 
+
+.topBtn{
+    right:5%;
+    bottom: 50px;
+    text-align:center;
+    position:fixed;
+}
+.topBtn a{
+    
+}
+
+.topBtn a:hover{
+    color: #5c5edc;
+}
+.topBtn a h3{
+    border:solid;
+    border-radius:100%;
+    width:100%;
+    height:100%;
+    line-height: 50px;
+    padding:5px 13px;
+    font-size:20px;
+    font-weight:600;
+}
+
+@media (max-width:1490px){
+    .topBtn{
+        display:none;
+    }
+}
+
+/*뒤로가기버튼*/
+.backBtn{
+    right:10%;
+    bottom:;
+    text-align:center;
+    position:fixed;
+}
+.backBtn a{
+    
+}
+
+.backBtn a h3:hover{
+    color:black;
+    background:white;
+}
+.backBtn a h3{
+    border:solid;
+    width:100%;
+    height:100%;
+    border-radius:30%;
+    padding:10px 10px;
+    font-size:20px;
+    font-weight:600;
+    background:black;
+    color:#fff;
+}
+
+@media (max-width:1600px){
+    .backBtn{
+        right:5%;
+    }
+}
+/*한솔*/
+.hansol{
+    margin-top:;
+}
