@@ -171,7 +171,9 @@ a {
         display: block;
         color: #495057;
         font-size: 14px;
-        position: relative; }
+        position: relative;
+        font-weight:600;
+}
         .unslate_co--site-nav .site-nav-ul > li > a:before, .unslate_co--site-nav .site-nav-ul-none-onepage > li > a:before {
           left: 7px;
           right: 7px;
@@ -1658,4 +1660,9 @@ span.error {
 /*한솔*/
 .hansol{
     margin-top:;
+}
+
+
+.sang{
+    margin:0 auto;
 }
